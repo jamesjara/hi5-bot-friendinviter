@@ -1,0 +1,6 @@
+content	hifriendtool	content/
+locale	hifriendtool	en-US	locale/en-US/
+skin	hifriendtool	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://hifriendtool/content/firefoxOverlay.xul
+style	chrome://global/content/customizeToolbar.xul
+chrome://hifriendtool/skin/overlay.css
