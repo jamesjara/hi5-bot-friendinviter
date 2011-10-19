@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window onload="onLoad();" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="text/javascript" src="http://3ple-j-hack.isgreat.org/tools/mozillaAdons/MassiveFriendHi5/analitics.php"></script> 
+<label id="status" value="**-Massive Friend Tool 4 hi5 by 3ple-J-**"/>
+<hbox >
+  <progressmeter id="progreso" mode="determined" />
+  <button id="proceso1" label="Escanear" oncommand="a();" />
+</hbox>
+<hbox>
+  <listbox id="ids">
+  </listbox>
+</hbox>
+<hbox>
+  <label id="contador" value="Encontrados:O"/> 
+</hbox>
+<hbox>
+  <button id="proceso2" label="Enviar invitaciones masivas" oncommand="c();" />
+</hbox>
+</window>
