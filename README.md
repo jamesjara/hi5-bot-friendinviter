@@ -5,6 +5,8 @@ bot, jamesjara, hi5, hacking, hi5bot, mozilla, xul, JavaScript, urnmozilla
 
 Hi5 bot for send massive invitations running in a mozilla xul extension 
 
+![](http://1.bp.blogspot.com/-fQek7qmigNw/ThtnFVcLpMI/AAAAAAAAAzs/XIL87Y8qjVg/s1600/hi5+bot+james+jara.JPG)
+
 ```Javascript
 
 var xmlHttp;
@@ -43,7 +45,7 @@ function enviarInvitacion(timestamp, jscode, user) {
         xmlHttp.overrideMimeType('text/xml; charset=utf-8');
     };
     if (xmlHttp == null) {
-        alert('Esta shit no soporta envio xmlHttp ');
+        alert('No soporta envio xmlHttp ');
         return;
     };
     var url = 'http://hi5.com/friend/addFriendAjax.do';
@@ -166,3 +168,31 @@ function c() {
 };
 
 ```
+
+*UPDATES AND MORE CODES HERE* : http://www.facebook.com/pages/James-Jara-Web-Blog/184938988195355
+
+
+*autor: james jara web*
+
+*Fuente original* : http://3plej-life.blogspot.com/2011/07/code-of-hi5-bot-massive-friend-tool.html
+
+*Asunto:*
+Script para enviar invitaciones massivas automaticas en la red social de hi5.
+
+*Titulo:*
+HI5 BOT MASSIVE FRIEND TOOL / hi5-bot-massive-friend-tool
+
+*demo:*
+http://www.youtube.com/watch?v=41DV215rJYQ
+
+*Lenguaje de programacion:*
+Javascript : front end , Php: back end
+
+*Dependencias:*
+hi5 , php ofuscador packer javascript
+
+*Para que sirve:*
+Enviar  mas de 100 invitaciones instantáneas, crear perfiles con mas de mil amigos por dia para marketing viral , crear landpages para promoción de clickbanking.
+
+*Como funciona:*
+Basicamente este script spider lee todos los perfiles existentes ,los mete a una lista, seguidamente envia la invitacion a cada ID de la lista osea  cada perfil. Esta optimizado para no ser baneado.
